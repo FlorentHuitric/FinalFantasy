@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Les jeux</title>
+                <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- Bootstrap Font Icon CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="custom.css">
+    </head>
+    <body class="bg-dark">
+        <!-- Création de la nav du site en sous menus -->
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Le Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"> 
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active text-light" href="index.html">Accueil</a></li>
+                            <li class="nav-item dropdown"><a class="text-light nav-link dropdown-toggle" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" href="#">Les épisodes</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#ff1">Mystic Quest</a></li>
+                                    <li><a class="dropdown-item" href="#ff2">Final Fantasy II</a></li>
+                                    <li><a class="dropdown-item" href="#ff3">Final Fantasy III</a></li>
+                                    <li><a class="dropdown-item" href="#ff4">Final Fantasy IV</a></li>
+                                    <li><a class="dropdown-item" href="#ff5">Final Fantasy V</a></li>
+                                    <li><a class="dropdown-item" href="#ff6">Final Fantasy VI</a></li>
+                                    <li><a class="dropdown-item" href="#ff7">Final Fantasy VII</a></li>
+                                    <li><a class="dropdown-item" href="#ff8">Final Fantasy VIII</a></li>
+                                    <li><a class="dropdown-item" href="#ff9">Final Fantasy IX</a></li>
+                                    <li><a class="dropdown-item" href="#ff10">Final Fantasy X</a></li>
+                                    <li><a class="dropdown-item" href="#ff12">Final Fantasy XII</a></li>
+                                    <li><a class="dropdown-item" href="#ff13">Final Fantasy XIII</a></li>
+                                    <li><a class="dropdown-item" href="#ff15">Final Fantasy XIV</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link active text-light" href="#">Les créateurs</a></li>
+                            <li class="nav-item dropdown"><a class="text-light nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown">Informations</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                                    <li><a class="dropdown-item" href="#">Conditions</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Tapez votre recherche"></input>
+                            <button class="btn btn-outline-success" type="submit">Chercher</button>
+                        </form>
+                        
+                    </div>    
+                </div>
+            </nav>
+        </header>
+        <!-- Création d'une bannière de site -->
+        <div  id="banniere" style="background-color: #0a3d62 !important;">
+            <img class="img-fluid mx-auto d-block animation" src="Images/FF1Logo.png" alt="Final Fantasy">
+        </div>
+        
+                <!-- Alert cliquable-->
+                    <div class="alert alert-success mb-0" role="alert">
+                        <p class="text-center">Ce site est a pour but de vous renseigner sur l'une des séries les plus emblématiques du jeu vidéo. J'espère que vous aurez autant de plaisir à le parcourir que moi à le créer. Ceci est un projet expérimental qui a pour but de mobiliser mes compétences avec le framework Bootstrap et de servir de présentation pour mes futures recherches d'emploi.</p>
+                        <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+        <!-- Création du titre de page et d'un texte de présentation du théme principal de la page-->
+        <section class="bg-dark pb-4">
+            <h1 class="text-secondary text-center p-5">Les épisodes</h1>
+            <p class="text-light text-center mb-0">Ici nous parlerons des jeux (solos), qui sont sortis au cours des 35 dernières années. Et croyez moi si vous le voulez, il y a beaucoup de choses à dire. En selle!!!</p>
+        </section>
+        <hr class="text-light">
+        <section>
+                    <!-- Création d'une bannière d'article -->
+            <h2 class="text-secondary text-center p-2" id="ff1">Final Fantasy I : Mystic Quest</h2>
+            <div  id="banniereMQ" style="background-color: #0a3d62;">
+                <img class="img-fluid mx-auto d-block" src="Images/FF1Logo.png" alt="Final Fantasy">
+            </div>
+            <p class="text-light text-center">L'histoire se passe dans un monde surplombé par l'arbre Mana, duquel jaillit la Cascade source de toute vie dans le monde. L'arbre Mana resplendit de beauté lorsque les hommes sont spirituellement purs et l'eau qui coule de ses racines contribue encore plus à purifier les esprits. En revanche,
+                lorsque l'arbre Mana est contaminé par une substance maléfique, la cascade jaillissant de ses racines se teinte de malfaisance. Elle incite alors les hommes au mal et leur énergie négative remonte vers l'arbre, rendant son existence encore plus maléfique. C'est un cercle vicieux qui continue jusqu'à la destruction du monde.
+                L'empire de Vandole utilisa jadis la puissance de Mana à des fins maléfiques, mais ses projets furent contrecarrés par les chevaliers Gemme. Cependant, l'empire de Glaive, une nouvelle puissance dirigé par le Roi Noir et le sorcier Julius, veut à nouveau s'emparer du pouvoir de l'arbre Mana. 
+                Le protagoniste du jeu est un jeune esclave qui combat chaque jour pour le bon plaisir du Roi Noir. Un jour, en réintégrant les quartiers des esclaves après avoir tué un monstre, notre héros trouve son seul ami, Willy, agonisant. Willy était lui aussi un guerrier qui avait pénétré dans le château
+                de Glaive et avait été capturé par Julius. Dans son dernier souffle, Willy lui affirme que l'arbre Mana est en danger, et qu'il doit trouver un chevalier Gemme du nom de Bogard. Dans sa quête, le héros fait la connaissance du personnage principal féminin, qui va le suivre tout au long de sa quête.</p>
+            
+                <!-- Création d'un carrousel pour animer les exemples -->
+            <div id="carouselMQ" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="Images/MQ_logo.webp" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="Images/MQimg1.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="Images/MQimg2.jpg.crdownload" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselMQ" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselMQ" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <!-- Création d'une bannière d'article -->
+            <h2 class="text-secondary text-center p-2" id="ff2">Final Fantasy II</h2>
+            <div  id="banniereFF2" style="background-color: #0a3d62 !important;">
+                <img class="img-fluid mx-auto d-block" src="Images/FFII_logo.webp" alt="Final Fantasy">
+            </div>
+            <p class="text-light text-center">L’ambition humaine peut parfois être considérée comme surnaturelle. Lorsque l’on souhaite acquérir le pouvoir divin et contrôler les populations, il est impossible d’atteindre ses objectifs autrement qu’en pactisant avec le démon.
+                Palmécia est l’empereur malsain et destructeur de l’empire du même nom. Ce tyran a réveillé d'anciennes magies obscures afin de semer le chaos et la destruction, son but étant d’asservir le peuple humain.
+                Mais quatre jeunes orphelins — Firion, Maria, Guy et Léon — refusent de se voir imposer une domination aussi soudaine que malfaisante,
+                rongés par la haine depuis l’assassinat de leurs parents par les légions de l’empereur. Voyant leur insoumission, Palmécia se met en tête de poursuivre les quatre survivants
+                et de leur infliger une mort aussi violente que douloureuse. Grâce à l’aide de la princesse Hilda et du vieux sage Minnwu, ils parviendront à s’échapper. L’heure de la vengeance a sonné… Tout semble impossible et pourtant nos quatre orphelins vont réussir à soulever une rébellion contre l’empire, à laquelle viendra s’ajouter l’aide précieuse de personnalités expérimentées, tel que Paul, Gordon, Joseph, Richard, Cid ou encore le vénérable Minnwu.</p>
+            
+                <!-- Création d'un carrousel pour animer les exemples -->
+                <div id="carouselFF2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="#" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="#" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="#" alt="Third slide">
+                    </div>
+                    </div>
+                <a class="carousel-control-prev" href="#carouselFF2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselFF2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            
+        <!-- Création d'une bannière d'article -->
+            <h2 class="text-secondary text-center p-2" id="ff3">Final Fantasy III</h2>
+            <div  id="banniereFF3" style="background-color: #0a3d62 !important;">
+                <img class="img-fluid mx-auto d-block" src="Images/FFIII_logo.webp" alt="Final Fantasy">
+            </div>
+            <p class="text-light text-center">Lorsque l’on se sert de son savoir pour faire le mal, a-t-on un jour une chance de se racheter aux yeux de tous ? La connaissance mènerait-elle à la destruction ? La Terre tremble et de bien curieux phénomènes se produisent. Ce qui attire l’attention de quatre jeunes orphelins (Luneth, Arc, Refia et Ingus). À peine sortent-ils de leur village pour enquêter qu’ils se font attaquer par une horde de monstres. Conséquence : ils tombent dans une cache et trouvent un très ancien cristal, objet d’une légende qui se nourrissait depuis lors de nombreuses croyances populaires. Nos quatre adolescents, tourmentés par leur découverte, se verront transformés en véritables investigateurs. Le cristal leur confie une mission de la plus haute importance : rétablir l’ordre dans leur monde, qu’ils ne connaissent qu’à peine. Ils ont été choisis pour devenir les chevaliers de la lumière, ordre mythique qui ne vit dans les consciences que sous la forme de rites ancestraux. Selon la même légende, un esprit démoniaque endormi sera réveillé par une personne et réduira la terre à néant.
+                Un terrible combat l’opposera aux guerriers de la prophétie et le bien triomphera.
+                Ce scénario met surtout en scène un équilibre fragile entre lumière et ténèbres. Alors que bien auparavant, un nuage de lumière a failli faire disparaitre les ténèbres, 4 cristaux du monde des ténèbres choisirent 4 guerriers pour stopper la lumière. C'est maintenant aux 4 cristaux de lumières de choisir leurs 4 chevaliers afin d'empêcher la progression de ce Nuage de Ténèbres.</p>
+
+            
+                <!-- Création d'un carrousel pour animer les exemples -->
+                <div id="carouselFF3" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="#" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="#" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="#" alt="Third slide">
+                    </div>
+                    </div>
+                <a class="carousel-control-prev" href="#carouselFF3" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselFF3" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> 
+        
+        <!-- Création d'une bannière d'article -->
+        <h2 class="text-secondary text-center p-2" id="ff4">Final Fantasy IV</h2>
+        <div  id="banniereFF4" style="background-color: #0a3d62 !important;">
+            <img class="img-fluid mx-auto d-block" src="Images/FFIV_logo.webp" alt="Final Fantasy">
+        </div>
+        <p class="text-light text-center">Final Fantasy IV se déroule dans un monde de fantasy. La planète, simplement appelée Planète Bleue fait clairement référence à la Terre bien qu'elle ne soit jamais nommée directement. La surface de la planète est constituée de manière classique, avec continents, îles et archipels, abritant déserts, prairies, forêts et montagnes. Les humains peuplant ce monde sont regroupés dans sept villes et quelques châteaux. La planète abrite aussi un monde souterrain, totalement coupé de la surface pendant des siècles et habité par les nains. Cet endroit, situé dans les entrailles du monde, est baigné de lave. L'aventure se poursuit aussi sur la Lune, où repose le peuple des Sélénites, d'antiques magiciens venus d'un autre monde. Présentant une surface très accidentée, la Lune ne contient que quelques grottes hormis le grand palais des Sélénites. La Lune héberge aussi la race des amusants Hummingway. Arborant une apparence extravagante et des comportements comiques, les Hummingway vivent en groupe dans une petite grotte. L'univers de Final Fantasy IV est teinté de médiéval-fantastique. Le système féodal est en place et les souverains usent d'aéronefs et de machines de guerre. Plusieurs personnages ont reçu une formation de magicien et sont capables d'utiliser des pouvoirs surnaturels pour, par exemple, attaquer ou soigner d'autre personnages.</p>
+
+        
+            <!-- Création d'un carrousel pour animer les exemples -->
+            <div id="carouselFF4" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="#" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Third slide">
+                </div>
+                </div>
+            <a class="carousel-control-prev" href="#carouselFF4" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFF4" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>       
+
+        <!-- Création d'une bannière d'article -->
+        <h2 class="text-secondary text-center p-2" id="ff5">Final Fantasy V</h2>
+        <div  id="banniereFF5"  style="background-color: #0a3d62 !important;">
+            <img class="img-fluid mx-auto d-block" src="Images/FFV_logo.webp" alt="Final Fantasy">
+        </div>
+        <p class="text-light text-center">Final Fantasy V commence en pleine journée alors que le vent commença à s'arrêter et à mourir. Profondément troublé par cette occurrence, le roi de Tycoon se prépara à voyager au temple du vent à dos de dragon tout en étouffant les craintes de sa fille, la princesse Lenna. Une fois au temple, il fut le témoin de la destruction inévitable du cristal qui éclata sous ses yeux.
+            Pendant ce temps, un jeune aventurier nommé Bartz, se reposant dans une forêt près de Tycoon voit un météore s'écraser à la surface de la planète, juste au sud de Tycoon. Bartz, parti enquêter sans attendre, fit la découverte d'une jeune femme, Lenna, assommée par une attaque de monstres. Après l'avoir sauvée, ils rencontrèrent un vieil homme près de la zone d'impact, souffrant d'une légère amnésie, appelé Galuf. Lenna expliqua alors qu'elle était sur le chemin du temple du vent à la recherche de son père. Galuf se souvint soudain qu'il s'agissait de sa destination d'origine et décida de l'accompagner. Après s'être séparés, Bartz rencontra de nouveau Lenna et Galuf, encore une fois attaqués par des monstres, cette fois-ci dans une zone de séismes. Les trois compagnons, voyageant dorénavant ensemble, se rendirent compte que tous les chemins par la terre étaient bloqués à cause de la chute du météore. Ils se décidèrent à traverser une caverne souterraine qui les mena à un repaire de pirates et à leur chef, Faris. Grâce à l'aide du capitaine, ils purent poursuivre leur chemin vers le temple du vent et arrivèrent dans la chambre du cristal où ils trouvèrent celui-ci brisé, ainsi qu'aucune trace du roi disparu. Cependant, les fragments réagirent à leur présence et une image du roi leur apparut, annonçant qu'ils doivent à tout prix empêcher la destruction des autres cristaux.            
+            Finalement, le groupe découvrit que les cristaux forment un sceau sur un sorcier nommé Exdeath. Ainsi, avec leur destruction, non seulement l'Être noir allait être libéré, mais le monde allait également devenir inhabitable. La compagnie tenta alors de sauver les cristaux de l'eau, du feu et de la terre, mais les machinations de la folie humaine, ou bien l'influence d'Exdeath sur les esprits humains l'en empêcha. Ayant été libéré, Exdeath fut en mesure de vaincre aisément le groupe puis de retourner dans son propre monde. À ce moment-là, Krile, la petite fille de Galuf arriva en météore et restaura la mémoire de son grand-père qui se rappela être originaire du même monde qu'Exdeath, où il retournèrent tous les deux à la poursuite de celui-ci. Bartz et les autres finirent par se décider à ne pas laisser Galuf se battre seul et le suivirent dans son monde où ils furent aussitôt capturés par Exdeath. Mais Galuf parvient à s'infiltrer dans son château et à les libérer en battant le lieutenant d'Exdeath, Gilgamesh, par la même occasion. Fuyant à travers un grand pont reliant le continent de Galuf à celui d'Exdeath, une barrière produite par le château de ce dernier les projeta sur un continent lointain. Cependant, grâce à Krile et à son dragon, semblable à celui du roi de Tycoon, ils parvinrent à rentrer au château du Val dont Galuf est le maître.           
+            Les héros rencontrèrent Kelgar, un des anciens compagnons de Galuf et surtout, avec lui et deux autres héros, un des Guerriers de l'Aurore qui enfermèrent Exdeath dans le monde de Bartz. Celui-ci apprit que son père, Dorgann, fut l'un d'eux et resta dans l'autre monde pour surveiller la prison d'Exdeath avant de mourir, peu après la mère de Bartz. Grâce au dernier membre de l'ancien groupe, Xezat, les héros parvinrent à détruire la barrière du château d'Exdeath, mais au prix de la mort de ce héros. Le groupe décida ensuite sous la demande de Galuf de rencontrer le sage Ghido qui leur apprit les origines d'Exdeath: un être né de la fusion d'esprits démoniaques enfermés dans l'arbre gardien au plus profond de la forêt ancienne. Une fois là-bas, Exdeath découvrit les 4 cristaux de son monde et, après un combat à mort avec Galuf, s'enfuit dans son château avec ceux-ci. L'arbre gardien, alors témoin de la mort de Galuf, confia à Krile les capacités de celui-ci. Maintenant en route pour le château d'Exdeath, Kelgar sacrifia sa vie pour dissiper l'illusion posée sur le château d'Exdeath pour permettre aux héros de traverser celui-ci, puis de vaincre Exdeath. Cependant, ce combat entraîna la destruction des cristaux. Le groupe se réveilla alors dans une grande plaine, devant, à leur grand étonnement, le château de Tycoon.            
+            Devant les réjouissances de la chute d'Exdeath et du retour de Sarissa, la princesse disparue, et de sa sœur Lenna, le château organisa une fête. Cependant, Bartz repart aussitôt en voyage en compagnie de Krile puis de Faris qui ne supporte pas la vie de château. Ils arrivent finalement chez Ghido, supposé être dans l'autre monde. Celui-ci leur explique alors que bien des années auparavant, 12 guerriers avaient combattu un Nécromancien nommé Enuo qui détenait le pouvoir du Néant. À la suite d'une grande bataille et de la défaite d'Enuo, des précautions furent prises afin d'éviter que de si grand pouvoir soit mis en de mauvaise main: le monde fut séparé en deux par le pouvoir de huit cristaux, enfermant ainsi entre les deux mondes le pouvoir du Néant, et empêchant l'accès aux 12 armes légendaires ainsi qu'aux magies et invocations ultimes utilisées contre Enuo. Cependant, le monde est réunifié et Exdeath usa d'une ruse pour apparaître devant le sage et vaincre le groupe, pour ensuite récupérer le pouvoir du Néant, libérant ainsi une armée de monstres enfermés jusqu'à présent dans la Fissure Dimensionnelle. Le monde redevenu entier, les héros récupérèrent les armes et les magies ultimes puis traversèrent la Fissure Dimensionnelle jusqu'à arriver devant Exdeath qui reprit alors sa véritable forme : celle d'un gigantesque arbre démoniaque. Grâce à l'aide des défunts Guerriers de l'Aurore, Bartz et les autres purent échapper à la tentative d'Exdeath de les enfermer dans le Néant et s'élancèrent dans un combat contre l'Arbre. Cependant, tout comme Enuo, Exdeath fut peu à peu absorbé dans le Néant, et il en résulta Néo-Exdeath, formé de monstres enfermés dans le Néant, avec l'intention de laisser toute choses retourner à celui-ci. Après sa défaite, les héros, de nouveau enfermé dans le Néant, parvinrent à s'échapper grâce au pouvoir des cristaux, à l'exception de ceux qui furent tombés contre Néo-Exdeath. À la fin du jeu, Krile ou un des 4 héros se recueillit pour ses amis disparus devant l'arbre gardien. C'est alors que celui-ci ramena ses compagnons tombés.</p>
+
+        
+            <!-- Création d'un carrousel pour animer les exemples -->
+            <div id="carouselFF5" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="#" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Third slide">
+                </div>
+                </div>
+            <a class="carousel-control-prev" href="#carouselFF5" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFF5" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        
+        <!-- Création d'une bannière d'article -->
+        <h2 class="text-secondary text-center p-2" id="ff6">Final Fantasy VI</h2>
+        <div  id="banniereFF6"  style="background-color: #0a3d62 !important;">
+            <img class="img-fluid mx-auto d-block" src="Images/FFVI_logo.webp" alt="Final Fantasy">
+        </div>
+        <p class="text-light text-center">Final Fantasy VI (ファイナルファンタジーVI, Fainaru Fantajī Shikkusu?) est un jeu vidéo de rôle, développé et publié par Square Co., Ltd. (maintenant Square Enix) en 1994 pour la console de jeux vidéo Super Nintendo. Final Fantasy VI est ressorti pour la PlayStation en 1999, pour la Game Boy Advance en 2006 puis sur la Console Virtuelle de la Nintendo Wii en 2011. Final Fantasy VI est le dernier titre de la série à être sorti sur Super Nintendo, et le premier Final Fantasy de la série où Hironobu Sakaguchi, créateur de la série, a produit plutôt que dirigé.
+            Final Fantasy VI n'est que le troisième jeu de la série à être sorti en Amérique du Nord (suivant la sortie du premier Final Fantasy et de Final Fantasy IV, respectivement nommés Final Fantasy et Final Fantasy II), la localisation américaine du jeu a été lancée sur le marché sous le titre Final Fantasy III. Quand Square a ressorti le jeu pour la console PlayStation en Amérique du Nord dans la collection Final Fantasy Anthology, le nom japonais a été restauré ainsi que le système de numérotation original. Le jeu ne bénéficia d'une sortie officielle européenne et australienne qu'en 2002,
+            accompagné d'une démo jouable de Final Fantasy X. Malgré tout, le jeu était populaire sur le marché des jeux importés en Europe et en Australie durant le milieu des années 1990. Il est à nouveau publié sous le titre de Final Fantasy III lors de sa réédition sur Super Nintendo Mini en 2017 en Amérique du Nord et en Europe.</p>
+
+        
+            <!-- Création d'un carrousel pour animer les exemples -->
+            <div id="carouselFF6" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="#" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Third slide">
+                </div>
+                </div>
+            <a class="carousel-control-prev" href="#carouselFF6" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFF6" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Création d'une bannière d'article -->
+        <h2 class="text-secondary text-center p-2" id="ff7">Final Fantasy VII</h2>
+        <div  id="banniereFF7"  style="background-color: #0a3d62 !important;">
+            <img class="img-fluid mx-auto d-block" src="Images/FFVII_logo.webp" alt="Final Fantasy">
+        </div>
+        <p class="text-light text-center">Là où les précédents Final Fantasy se cantonnaient aux mondes médiévaux-fantastiques ou semi-industriels, Final Fantasy VII suit les traces de Final Fantasy VI et s’inscrit dans un univers de science-fiction où les progrès technologiques et scientifiques correspondent à un futur proche4,5.
+            Le monde de Final Fantasy VII, une planète nommée rétroactivement Gaïa6, est composé de quatre continents principaux et de plusieurs îles. Midgar est une vaste cité industrielle sur le continent oriental, clairement influencée par l’esthétique cyberpunk, dans la lignée de certains films comme Blade Runner, qui fut l’une des sources d’inspiration du début du jeu7. On y trouve le siège de la Shinra Electric Power Company (Shinra), une puissante entreprise qui domine le monde à la fois économiquement, politiquement et militairement. Celle-ci n’hésite pas à recourir à la force pour satisfaire ses ambitions, et possède notamment d’énormes canons dans la base militaire de Junon, sur la côte ouest du même continent. Sur le continent central, on peut trouver la ville de Nibelheim, le village de Cosmos Canyon, où les habitants vivent en harmonie avec la nature, ainsi que le Gold Saucer, un parc d’attraction. Le continent nord, recouvert de glace, abrite entre autres un cratère antique ainsi que la capitale des Cetras, ancien peuple autrefois protecteur de la planète. Finalement, le continent Ouest abrite une ville isolée du nom de Utai.            
+            À bien des égards, Gaïa est présentée comme une planète qui réagit à la manière d’un organisme vivant. Sous son écorce s’écoule la Rivière de la vie, formée des âmes des êtres vivants qui ont habité la planète, elle représente en quelque sorte la conscience de Gaïa. Ainsi, lorsque la Shinra utilise d’énormes machines connues sous le nom de réacteurs Mako pour extraire l’énergie Mako des entrailles de Gaïa pour des usages domestiques, industriels ou directement militaires, elle puise en réalité l’énergie spirituelle de la Rivière de la vie et affaiblit grandement la planète. La condensation de l’énergie Mako permet par la suite à la Shinra de produire des matérias, de petites pierres qui possèdent des pouvoirs magiques très utiles lors des combats. Celles-ci contiennent entre autres le savoir des anciens Cetras.</p>
+
+        
+            <!-- Création d'un carrousel pour animer les exemples -->
+            <div id="carouselFF7" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="#" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Third slide">
+                </div>
+                </div>
+            <a class="carousel-control-prev" href="#carouselFF7" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFF7" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Création d'une bannière d'article -->
+        <h2 class="text-secondary text-center p-2" id="ff8">Final Fantasy VIII</h2>
+        <div  id="banniereFF8"  style="background-color: #0a3d62 !important;">
+            <img class="img-fluid mx-auto d-block" src="Images/FFVIII_logo.webp" alt="Final Fantasy">
+        </div>
+        <p class="text-light text-center">L'action de Final Fantasy VIII se déroule en majorité dans un monde fantasy anonyme, divisé en cinq continents. Le plus vaste d'entre eux, où se trouve Esthar, s'étend sur la partie orientale et nord-orientale de la carte. Le second continent le plus vaste, nommé Galbadia, s'étend à l'ouest et comprend la plupart des lieux du jeu.
+        Balamb est une petite île située environ au milieu de la carte et constitue le point de départ de l'aventure. Les deux continents restants, Centra et Trabia, sont les plus petits et sont la plupart du temps dévastés par une Larme Sélénite4,5. Le continent le plus au sud est long et fin, alors que l'autre, un peu plus au nord, est un archipel de plusieurs territoires divisés et éparpillés. Les îles et les structures marines sont parsemées dans le reste du monde, et une partie du jeu se déroule à l'extérieur de ce monde (en particulier aux environs de son unique lune).
+        Afin de répondre aux souhaits du réalisateur Yoshinori Kitase, à savoir créer une atmosphère étrangère[pas clair], plusieurs designs ont été sélectionnés en se basant sur le style de divers lieux familiers, tout en maintenant une ambiance fantasy. Les inspirations varient entre l'architecture de l'Égypte et de la Grèce antique, en passant par Paris, afin de créer une société européenne futuriste et idéalisée.</p>
+
+        
+            <!-- Création d'un carrousel pour animer les exemples -->
+            <div id="carouselFF8" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="#" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Third slide">
+                </div>
+                </div>
+            <a class="carousel-control-prev" href="#carouselFF8" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFF8" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Création d'une bannière d'article -->
+        <h2 class="text-secondary text-center p-2" id="ff9">Final Fantasy IX</h2>
+        <div  id="banniereFF9"  style="background-color: #0a3d62 !important;">
+            <img class="img-fluid mx-auto d-block" src="Images/FFIX_logo.webp" alt="Final Fantasy">
+        </div>
+        <p class="text-light text-center">Final Fantasy IX se déroule principalement dans un monde appelé Héra, divisé en quatre continents : le Continent de la Brume, qui comprend la majeure partie du territoire et de la population, le Continent Extérieur, un désert aride et infertile au Nord, le Continent Oublié, une large terre à l'Ouest où le soleil se couche, et le Continent Fermé, au Nord-Ouest, presque entièrement couvert de glace. Le continent de la Brume (appelé ainsi en raison de l'épaisse brume qui le recouvre) se divise en quatre royaumes : Alexandrie, Lindblum,
+Bloumécia et Clayra, chacun séparé des autres par de hautes montagnes. Le peuple de Clayra vit séparé du reste du monde, à l'abri d'un arbre géant et d'une tempête de sable invoquée par les anciens du village, alors que les autres peuples vivent dans de petits villages ou de grandes capitales. Au cours du jeu, les personnages se rendront aussi à Terra, un monde mourant où se repose un peuple mystique qui reste mystérieux, et à Mémoria, un monde où se matérialisent les souvenirs.
+Héra est habité par plusieurs races douées d'intelligence et de parole. Si les humains constituent la majorité de la population, on trouve aussi plusieurs sortes d'animaux anthropomorphiques à Lindblum, une race de rat à apparence humaine à Bloumécia et Clayra, des nains à la Passe de Condéa sur le Continent Extérieur, les « Invokeurs » de Madahine-salee sur le Continent Nord qui ressemblent aux humains mais possèdent une petite corne sur le front, ou les Kwe, des créatures gourmandes vivant dans les marais de Kwe.
+Le scénario fait aussi intervenir plusieurs personnages créés artificiellement comme les mages noirs, des sortes de pantins sans âmes habillés d'une cape bleue et d'un large chapeau jaune, ou les « génomes », des clones conçus pour servir de réceptacles pour les âmes des habitants de Terra.</p>
+
+        
+            <!-- Création d'un carrousel pour animer les exemples -->
+            <div id="carouselFF9" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="#" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Third slide">
+                </div>
+                </div>
+            <a class="carousel-control-prev" href="#carouselFF9" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFF9" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Création d'une bannière d'article -->
+        <h2 class="text-secondary text-center p-2" id="ff10">Final Fantasy X</h2>
+        <div  id="banniereFF10"  style="background-color: #0a3d62 !important;">
+            <img class="img-fluid mx-auto d-block" src="Images/FFX_logo.webp" alt="Final Fantasy">
+        </div>
+        <p class="text-light text-center">Spira est le nom donné au monde de Final Fantasy X. Il est composé de deux continents reliés par un isthme et de quelques îles. Il y a 1000 ans, une guerre terrible avait lieu entre 2 cités machines ultra développées. A l'apogée de ce conflit, dans une course à la technologie et à la création de machine toujours plus puissantes et sophistiquées apparut Sin, une entité surnaturelle surpuissante, qui mit un frein à toute avancée technologique et à cette guerre et qui depuis dévaste Spira régulièrement.
+Spira est un monde où les machines et la haute technologie étaient omniprésentes il y a un millénaire, mais où la situation a changé ; le monde contient dorénavant peu de technologie, dont l'usage est très limité et contrôlé, et plus de magie. Le joueur évolue donc très souvent dans des décors axés sur les éléments naturels (forêts, plaines). Les monstres gardent l'aspect des précédents épisodes de la série : on retrouve des élémentaires, des animaux mutants, des bombes volantes…
+Le blitzball est un sport pratiqué dans l'univers de Final Fantasy X, consistant en un mélange de handball, de football, et de water-polo, le tout se jouant sous l'eau.</p>
+
+        
+            <!-- Création d'un carrousel pour animer les exemples -->
+            <div id="carouselFF10" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="#" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Third slide">
+                </div>
+                </div>
+            <a class="carousel-control-prev" href="#carouselFF10" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFF10" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Création d'une bannière d'article -->
+        <h2 class="text-secondary text-center p-2" id="ff12">Final Fantasy XII</h2>
+        <div  id="banniereFF12"  style="background-color: #0a3d62 !important;">
+            <img class="img-fluid mx-auto d-block" src="Images/FFXII_logo.webp" alt="Final Fantasy">
+        </div>
+        <p class="text-light text-center">Final Fantasy XII se déroule dans un monde appelé Ivalice (il s'agit aussi du nom du royaume des Atkascha dans Final Fantasy Tactics), à une époque où « la magie était chose courante » et où « les vaisseaux fendaient les cieux ». En ces temps-là, les magilithes, des pierres renfermant une mystérieuse force magique, sont couramment utilisés, aussi bien pour jeter des sorts que pour faire voler les vaisseaux — l'un des moyens de transport les plus prisés de ce monde. Ivalice est divisé en trois continents : Ordalia, Valendia et Kerwon. Ordalia se situe dans la partie occidentale d'Ivalice. Au milieu des vastes plaines de ce continent se trouve l'Empire de Rozarria, l'est du continent est quant à lui recouvert d'un immense désert, qui se trouve être un jagd. Les jagds sont des terres si riches en myste (la manifestation éthérée des magilithes) que les vaisseaux ne peuvent les survoler. Sur le continent de Valendia se trouve l'Empire d'Archadia, cet empire se compose en majorité de vastes plaines luxuriantes. Le continent de Kerwon s'étend au sud d'Ivalice, et présente un relief plus accidenté et un climat plus varié que les autres régions de ce monde. On y trouve aussi bien des forêts luxuriantes que des endroits glacés. Au milieu d'Ordalia et de Valendia se trouve la Péninsule Galtéenne d'Ordalia. C'est là que se trouve le petit royaume de Dalmasca, point central de l'histoire du jeu. D'un climat plutôt tempéré, Dalmasca est cependant entourée de déserts, ce qui la rend assez différente des étendues froides de Kerwon et des riches plaines de Valendia et Ordalia. La situation particulière et stratégique du royaume de Dalmasca l'a placé au milieu du conflit larvé opposant les deux grands empires de Rozarria et Archadia. Si bien que deux ans avant le début du jeu, Dalmasca, ainsi que diverses nations de petite taille, est envahie par Archadia.</p>
+
+        
+            <!-- Création d'un carrousel pour animer les exemples -->
+            <div id="carouselFF12" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="#" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Third slide">
+                </div>
+                </div>
+            <a class="carousel-control-prev" href="#carouselFF12" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFF12" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Création d'une bannière d'article -->
+        <h2 class="text-secondary text-center p-2" id="ff13">Final Fantasy XIII</h2>
+        <div  id="banniereFF13"  style="background-color: #0a3d62 !important;">
+            <img class="img-fluid mx-auto d-block" src="Images/FFXIII_logo.webp" alt="Final Fantasy">
+        </div>
+        <p class="text-light text-center">L'histoire se déroule dans deux mondes distincts en rivalité depuis plusieurs siècles, Cocoon et Pulse, chacun possédant ses propres fal'Cie.
+Cocoon (理想郷, コクーン?, kokun) est une cité flottante dans le ciel de Pulse. Le fal'Cie de Cocoon créa des formes de vie et des machines destinées à ses habitants. Cependant, avec le temps, les habitants de Cocoon commencèrent à craindre pour la sécurité de leur monde, et s'inquiétèrent à propos de tous ceux qui venaient de Pulse. Ainsi toute chose quelle qu'elle soit, une fois suspectée de venir de Pulse y est renvoyée par l'opération de Purge. Le début du jeu prend place durant une de ces fameuses Purges.
+Pulse (下界, パルス?, parusu) désigne la terre ferme. Laissée à l'abandon après la création de Cocoon, les formes de vie qui sont restées se sont développées jusqu'à atteindre des tailles immenses. En effet Pulse est très vaste, de la même circonférence que la planète Terre. Des restes de civilisations parsèment ces terres sauvages mais la nature a repris ses droits sur les bâtiments en ruines. Ce monde est totalement méprisé et craint par les habitants de Cocoon, depuis que Pulse est devenue une terre d'exil et synonyme de damnation.</p>
+
+        
+            <!-- Création d'un carrousel pour animer les exemples -->
+            <div id="carouselFF13" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="#" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Third slide">
+                </div>
+                </div>
+            <a class="carousel-control-prev" href="#carouselFF13" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFF13" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Création d'une bannière d'article -->
+        <h2 class="text-secondary text-center p-2" id="ff15">Final Fantasy XV</h2>
+        <div  id="banniereFF15"  style="background-color: #0a3d62 !important;">
+            <img class="img-fluid mx-auto d-block" src="Images/FFXV_logo.webp" alt="Final Fantasy">
+        </div>
+        <p class="text-light text-center">Final Fantasy XV se déroule dans le monde d'Eos, divisé en trois continents :
+            <ul class="text-light text-center">
+                <li>Le royaume du Lucis se situe au Nord-Est,</li>
+                <li>Accordo au Sud,</li>
+                <li>et l'empire du Niflheim à l'Ouest.</li>
+            </ul>
+<p class="text-light text-center">Le royaume du Lucis est sous la protection du Cristal, un artefact magique contrôlé par la famille royale des Caelum. La nation de Tenebrae, sur les terres de Niflheim, repose sur une technologie avancée et guidée par l'Oracle, une prêtresse capable de parler aux Six, appellation donnée aux six dieux de ce monde et de protéger les habitants du mal des ténèbres dont se nourrissent les dæmons qui apparaissent la nuit. Le royaume du Lucis est le dernier continent à résister à l'invasion du Niflheim. Sa capitale, Insomnia, est sous la protection du Mur, un bouclier magique, qui peut exister tant que le roi du Lucis, possédant l'Anneau des Lucii, est en vie.</p>
+
+        
+            <!-- Création d'un carrousel pour animer les exemples -->
+            <div id="carouselFF15" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="#" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="#" alt="Third slide">
+                </div>
+                </div>
+            <a class="carousel-control-prev" href="#carouselFF15" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFF15" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </section>
+
+
+        <footer class="fixed-bottom bg-dark">
+            <div class="btn-group" role="group">
+                <button type="button" class="bi bi-instagram"></button>
+                <button type="button" class="bi bi-facebook"></button>
+                <button type="button" class="bi bi-twitter"></button>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- <script src="/custom.js"></script> inutile solution trouvée pour fermer l'alerte grâce à la classe .data-bs-dismiss-->
+    </body>
+</html>
+
+

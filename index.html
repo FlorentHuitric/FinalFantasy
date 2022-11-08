@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Accueil</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- Bootstrap Font Icon CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="custom.css">
+    </head>
+    <body class="bg-dark">
+        <!-- Création de la nav du site en sous menus -->
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Le Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"> 
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active text-light" href="index.html">Accueil</a></li>
+                            <li class="nav-item dropdown"><a class="text-light nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" href="/jeux.html">Les épisodes</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="jeux.html">Mystic Quest</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy II</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy III</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy IV</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy V</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy VI</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy VII</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy VIII</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy IX</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy X</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy XII</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy XIII</a></li>
+                                    <li><a class="dropdown-item" href="jeux.html">Final Fantasy XIV</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link active text-light" href="#">Les créateurs</a></li>
+                            <li class="nav-item dropdown"><a class="text-light nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown">Informations</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                                    <li><a class="dropdown-item" href="#">Conditions</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Tapez votre recherche"></input>
+                            <!-- Error: Stray end tag input. -->
+                            <button class="btn btn-outline-success" type="submit">Chercher</button>
+                        </form>
+                        
+                    </div>    
+                </div>
+            </nav>
+        </header>
+        <!-- Création d'une bannière de site -->
+        <div  id="banniere" style="background-color: #0a3d62;">
+            <img class="img-fluid mx-auto d-block animation" src="Images/FF1Logo.png" alt="Final Fantasy">
+        </div>
+        
+                <!-- Alert cliquable-->
+                    <div class="alert alert-success mb-0" role="alert">
+                        <p class="text-center">Ce site est a pour but de vous renseigner sur l'une des séries les plus emblématiques du jeu vidéo. J'espère que vous aurez autant de plaisir à le parcourir que moi à le créer. Ceci est un projet expérimental qui a pour but de mobiliser mes compétences avec le framework Bootstrap et de servir de présentation pour mes futures recherches d'emploi.</p>
+                        <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+        <!-- Création du titre de page et d'un texte de présentation du théme principal du site web -->
+        <section class="bg-dark">
+            <h1 class="text-secondary text-center p-4">Final Fantasy</h1>
+            <p class="text-secondary mb-0">Final Fantasy (ファイナルファンタジー, Fainaru Fantajī?) est une série de jeux vidéo de rôle (RPG) produite par Square Enix (originellement Square Soft) et lancée par Hironobu Sakaguchi en 1987 au Japon sur la NES avec le jeu Final Fantasy. Le premier jeu de la série est un dernier effort de Sakaguchi pour remettre sa carrière sur pied après plusieurs échecs commerciaux : il rencontre un franc succès commercial.
+                Depuis, Final Fantasy évolue avec chaque génération de console de salon et est parfois adaptée sur d'autres plates-formes. Elle s'est aventurée dans d'autres genres de jeu vidéo dont le jeu de rôle en ligne, la course, les jeux de tir à la troisième personne, le jeu de combat et le jeu de rythme. Elle s'est ensuite diversifiée en termes de format, donnant naissance à des films, des animes, des mangas et des romans.              
+                Bien que la majorité des jeux Final Fantasy soit composée de jeux à l'histoire complètement indépendante, on y retrouve un certain nombre de points communs. Ces points communs incluent surtout des éléments de scénario, des noms et espèces de personnages et des mécaniques de jeu. Le scénario classique d'un jeu Final Fantasy reprend l'histoire d'un groupe de jeunes héros qui combattent le Mal tout en développant leur personnalité propre et les relations entre eux. Enfin, les musiques souvent composées par Nobuo Uematsu participent à la notoriété de la série et à sa cohérence. 
+                La série de jeux vidéo rencontre un véritable succès commercial et critique. Elle compte plus de 135 000 000 unités vendues entre sa création et 2017, et est considérée comme une série majeure du monde du jeu vidéo depuis Final Fantasy VII. Elle a eu une influence non négligeable sur la mécanique de jeu habituelle des jeux vidéo de rôle et a participé à la démocratisation du genre dans son ensemble en dehors du Japon.</p>
+        </section>
+
+        <!-- Création d'un fil des dernières actualités du théme du site, ici dernier trailer du prochain jeu -->
+        <section class="  text-center ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/64eEnplElXA" allowfullscreen></iframe>
+        </section>
+        <span class="d-block text-center text-primary bg-dark">Ceci est le dernier trailer en date du prochain jeu de la saga à sortir en été 2023</span>
+        <footer class="fixed-bottom bg-dark">
+            <div class="btn-group" role="group">
+                <button type="button" class="bi bi-instagram"></button>
+                <button type="button" class="bi bi-facebook"></button>
+                <button type="button" class="bi bi-twitter"></button>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- <script src="/custom.js"></script> inutile solution trouvée pour fermer l'alerte grâce à la classe .data-bs-dismiss-->
+    </body>
+</html>
+
+

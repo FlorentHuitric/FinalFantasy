@@ -1,0 +1,114 @@
+@font-face {
+    font-family: FinalFantasy;
+    src: url(/Fonts/finalf.ttf);
+}
+
+*{
+    font-family: FinalFantasy;
+}
+    /* modification des marges supérieures & inférieures du body afin de coller parfaitement 
+    les headers & footers au pixel car ils sont position:fixed; */
+body{
+    margin: 56px 5px 30px 5px;
+
+    /* overflow-x: hidden; je ne trouve pas d'autre solution à la scrollbar horizontale du Contact.html */
+    /* height: 4000px; vérification du fixed top de Bootstrap : succes */
+}
+
+/* suppression des liens ul page épisodes/ffXV */
+ul li{
+    list-style-type: none;
+}
+
+/* Création des transitions sur les bannières des différents Final Fantasy♥ */
+#banniereMQ, #banniereFF2, #banniereFF3, #banniereFF4, #banniereFF5, #banniereFF6, #banniereFF7, #banniereFF8, #banniereFF9, #banniereFF10, #banniereFF12, #banniereFF13, #banniereFF15{
+    transition-property: all;
+    /* transition-duration: 5s;  ==>la fonction transition ne semble pas fonctionner avec une modification linear gradient*/
+}
+#banniereMQ:hover{
+    
+    background: linear-gradient(#1E90FF, #00BFFF);
+}
+
+#banniereFF2:hover{
+    
+    background: linear-gradient(#C71585, #D443A7);
+}
+
+#banniereFF3:hover{
+    
+    background: linear-gradient(#00CEE1, #00E5D8);
+}
+
+#banniereFF4:hover{
+    
+    background: linear-gradient(#8A2BE2, #6A5ACD);
+}
+
+#banniereFF5:hover{
+    
+    background: linear-gradient(#AB00AB, #9A3BF2);
+}
+
+#banniereFF6:hover{
+    
+    background: linear-gradient(#CC3300, #FF6633);
+}
+
+#banniereFF7:hover{
+    
+    background: linear-gradient(#FFFFFF, #A9A9A9);
+}
+
+#banniereFF8:hover{
+    
+    background: linear-gradient(#bC2300, #dC4300);
+}
+
+#banniereFF9:hover{
+    
+    background: linear-gradient(#EAEA00, #F0E68C);
+}
+
+#banniereFF10:hover{
+    
+    background: linear-gradient(#BDDCF0, #5A8AA8);
+}
+
+#banniereFF12:hover{
+    
+    background: linear-gradient(#EEE88A, #CD8537);
+}
+
+#banniereFF13:hover{
+    
+    background: linear-gradient(#40E0D0, #7FFFD4);
+}
+
+#banniereFF15:hover{
+    
+    background: linear-gradient(#000000, #002050);
+}
+
+/* Création d'une animation sur l'image de bannière de page */
+
+.animation{
+    animation: 2s ease-in-out;
+    animation-name: zoom, rotation;
+}
+@keyframes rotation{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(720deg);}   
+    }
+
+/* @keyframes zoom{                 problème sur le zoom, fonctionnalité à implémenter pour la prochaine version, merci.
+    from {
+    transform: scale(1, 1);
+    }
+    50% {
+    transform: scale(1.5, 1.5);
+    }
+    to{
+    transform: scale(1, 1);
+    }
+}     */
